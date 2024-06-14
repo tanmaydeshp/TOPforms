@@ -30,7 +30,7 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .content{
     flex: 1 1 auto;
@@ -90,4 +90,17 @@ body{
 .photocredit{
     color: white;
     text-align: center;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+}
+
+input[type="text"]:focus{
+    box-shadow: 10px;
+    border: 1px solid yellow !important
+}
+
+input:invalid{
+    border: 1px solid red;
 }
